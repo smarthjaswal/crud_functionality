@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+body{
+    background-image: url(https://vietnam.postsen.com/content/uploads/2022/12/17/2269ccf8f9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-weight: bold;
+    color: white;
+}
+.headerontop{
+    display: flex;
+    position: absolute;
+    margin-left: 42%;
+    width: auto;
+    padding: 5px;
+    border: solid green 3px;
+}
+.heading{
+    color: skyblue;
+    text-decoration: wavy;
+    
+}
+.goalbox{
+    height: 100px; 
+    width: 230px; 
+    background-color: whitesmoke;
+    opacity: .8;
+    border-radius: 20px;
+    color: black;
+}
+.leftgoal{
+    display: inline-block;
+    float: left;
+    border: solid black;
+    height: 99px;
+    width: 70px;
+    border-radius: 20px;
+    
+}
+.rightgoal{
+    display: inline-block;
+    float: right;
+    border: solid black;
+    height: 99px;
+    width: 70px;
+    border-radius: 20px;
+
+}
+.score{
+     justify-content: center;
+     text-align: center;
+     margin-top: 30%;
+     display: flex;
+}
+.imagebox{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    /* background-color: gray; */
+}
+.leftimg{
+    float: left;
+    cursor: pointer;
+}
+.leftimg img{
+    border-radius: 15px;
+}
+.rightimg{
+    float: right;
+    cursor: pointer;
+}
+.rightimg img{
+    border-radius: 15px;
+}
+.squad{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: lightseagreen; */
+}
+.squadarg{
+    margin-left: 120px;
+    margin-top: 40px;
+}
+.squadfrance{
+    margin-right: 25px;
+    margin-top: 40px;
+}
+.btn1{
+    position: absolute;
+   background-color: black;
+   border: none;
+   margin-left: 100px;
+   border-radius: 10px;
+   color: white;
+}
+.btn1:hover{
+    position: absolute;
+    background-color: red;
+    border: none;
+    margin-left: 100px;
+    border-radius: 10px;
+    opacity: 1;
+}
+.btn2{
+    position: absolute;
+   background-color: black;
+   border: none;
+   margin-left: 100px;
+   border-radius: 10px;
+   color: white;
+}
+.btn2:hover{
+    position: absolute;
+    background-color: red;
+    border: none;
+    margin-left: 100px;
+    border-radius: 10px;
+    opacity: 1;
+}
